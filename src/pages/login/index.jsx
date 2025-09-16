@@ -16,7 +16,7 @@ const LoginPage = () => {
     }
 
     // Set page title
-    document.title = 'Sign In - WebCraft Marketplace';
+    document.title = 'Sign In - Royals Web Solutions Marketplace';
   }, [navigate]);
 
   return (
@@ -43,7 +43,7 @@ const LoginPage = () => {
         <div className="container mx-auto px-6 py-8">
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date()?.getFullYear()} WebCraft Marketplace. All rights reserved.
+              © {new Date()?.getFullYear()} Royals Web Solutions Marketplace. All rights reserved.
             </p>
             <div className="flex items-center justify-center space-x-6 mt-4">
               <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-smooth">

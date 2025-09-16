@@ -11,7 +11,7 @@
     --color-foreground: #0F172A; /* slate-900 */
     --color-border: #E2E8F0; /* slate-200 */
     --color-input: #FFFFFF; /* white */
-    --color-ring: #2563EB; /* blue-600 */
+    --color-ring: #f8bf20; /* blue-600 */
     
     /* Card Colors */
     --color-card: #F8FAFC; /* slate-50 */
@@ -26,7 +26,7 @@
     --color-muted-foreground: #475569; /* slate-600 */
     
     /* Primary Colors */
-    --color-primary: #2563EB; /* blue-600 */
+    --color-primary: #f8bf20; /* blue-600 */
     --color-primary-foreground: #FFFFFF; /* white */
     
     /* Secondary Colors */
@@ -34,7 +34,7 @@
     --color-secondary-foreground: #FFFFFF; /* white */
     
     /* Accent Colors */
-    --color-accent: #0EA5E9; /* sky-500 */
+    --color-accent: #ffa013; /* sky-500 */
     --color-accent-foreground: #FFFFFF; /* white */
     
     /* Success Colors */
@@ -74,16 +74,58 @@
   .shadow-soft {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
-  
+
   .shadow-modal {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   }
-  
+
   .transition-smooth {
     transition: all 200ms ease-out;
   }
-  
+
   .transition-medium {
     transition: all 300ms ease-out;
+  }
+
+  .logo-container {
+    /* background: white;
+    padding: 60px;
+    border-radius: 20px; */
+    box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .logo-container:hover {
+    transform: translateY(-5px);
+  }
+
+  .crown-icon {
+    width: 40px;
+    height: 40px;
+    background: #f8bf20;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-container .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e293b;
+    margin: 0;
+  }
+
+  .royals {
+    color: #f8bf20;
+  }
+
+  .tagline {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
   }
 }

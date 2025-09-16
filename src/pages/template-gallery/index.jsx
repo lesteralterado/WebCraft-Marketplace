@@ -248,7 +248,7 @@ const TemplateGallery = () => {
   return (
     <>
       <Helmet>
-        <title>Template Gallery - WebCraft Marketplace</title>
+        <title>Template Gallery - Royals Web Solutions Marketplace</title>
         <meta name="description" content="Discover premium website templates for your next project. Browse our collection of responsive, modern templates for business, e-commerce, portfolio, and more." />
         <meta name="keywords" content="website templates, web design, responsive templates, business templates, e-commerce templates" />
       </Helmet>
@@ -362,7 +362,7 @@ const TemplateGallery = () => {
                   <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-lg">
                     <Icon name="Layers" size={20} color="white" />
                   </div>
-                  <span className="text-xl font-semibold text-foreground">WebCraft</span>
+                  <span className="text-xl font-semibold text-foreground">Royals Web Solutions</span>
                 </div>
                 <p className="text-muted-foreground mb-4 max-w-md">
                   Your trusted marketplace for premium website templates and digital design resources. 
@@ -406,7 +406,7 @@ const TemplateGallery = () => {
             </div>
             
             <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-              <p>&copy; {new Date()?.getFullYear()} WebCraft Marketplace. All rights reserved.</p>
+              <p>&copy; {new Date()?.getFullYear()} Royals Web Solutions Marketplace. All rights reserved.</p>
             </div>
           </div>
         </footer>

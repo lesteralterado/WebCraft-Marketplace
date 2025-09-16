@@ -1,6 +1,6 @@
-# React
+# Royals Web Solutions Marketplace
 
-A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
+A modern React-based marketplace for premium website templates and custom web solutions, built with the latest frontend technologies.
 
 ## 🚀 Features
 
@@ -92,8 +92,30 @@ The app is built with responsive design using Tailwind CSS breakpoints.
 
 ## 📦 Deployment
 
+### Building for Production
+
 Build the application for production:
 
 ```bash
 npm run build
 ```
+
+The build artifacts will be stored in the `docs/` directory.
+
+### Deploying to GitHub Pages
+
+1. Push your code to a GitHub repository named `royalswebsolutions-marketplace`.
+
+2. Go to your repository settings on GitHub.
+
+3. Scroll down to the "Pages" section.
+
+4. Under "Source", select "Deploy from a branch".
+
+5. Choose the `main` branch and `/docs` folder.
+
+6. Click "Save".
+
+Your site will be available at `https://yourusername.github.io/royalswebsolutions-marketplace/`.
+
+Note: Replace `yourusername` with your actual GitHub username in the Open Graph and Twitter meta tags in `index.html` before deploying.

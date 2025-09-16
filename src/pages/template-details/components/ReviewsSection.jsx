@@ -11,7 +11,7 @@ const ReviewsSection = ({ template }) => {
     {
       id: 1,
       user: {
-        name: "Sarah Johnson",
+        name: "Lester R.",
         avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150",
         verified: true
       },

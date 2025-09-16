@@ -8,19 +8,19 @@ const TestCredentials = () => {
   const credentials = [
     {
       role: "Administrator",
-      email: "admin@webcraft.com",
+      email: "admin@royalswebsolutions.com",
       password: "admin123",
       description: "Full access to all features and admin panel"
     },
     {
       role: "Developer",
-      email: "dev@webcraft.com",
+      email: "dev@royalswebsolutions.com",
       password: "dev123",
       description: "Access to developer tools and template uploads"
     },
     {
       role: "Customer",
-      email: "customer@webcraft.com",
+      email: "customer@royalswebsolutions.com",
       password: "customer123",
       description: "Standard customer account with purchase history"
     }

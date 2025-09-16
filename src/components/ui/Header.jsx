@@ -37,11 +37,14 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-background border-b border-border">
       <div className="flex h-16 items-center justify-between px-6">
         {/* Logo */}
-        <Link to="/template-gallery" className="flex items-center space-x-2">
-          <div className="flex items-center justify-center w-8 h-8 bg-primary rounded-lg">
-            <Icon name="Layers" size={20} color="white" />
+        <Link to="/template-gallery" className="logo-container bg-none">
+          <div className="crown-icon">
+            <Icon name="Crown" size={20} color="white" />
           </div>
-          <span className="text-xl font-semibold text-foreground">WebCraft</span>
+          <div className="text-container">
+            <h1 className="company-name"><span className="royals">Royals</span> Web Solutions</h1>
+            <p className="tagline">Premium Website Development</p>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}

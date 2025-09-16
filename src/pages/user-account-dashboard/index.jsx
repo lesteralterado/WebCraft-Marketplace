@@ -16,10 +16,10 @@ const UserAccountDashboard = () => {
 
   // Mock user data
   const userProfile = {
-    firstName: "Sarah",
-    lastName: "Johnson",
-    email: "sarah.johnson@email.com",
-    phone: "+1 (555) 123-4567",
+    firstName: "Lester",
+    lastName: "Royales",
+    email: "lesteralteradoroyales@gmail.com",
+    phone: "+63 961-817-9619",
     company: "Creative Studio LLC",
     website: "https://creativestudio.com",
     joinDate: "2023-03-15",
@@ -167,7 +167,7 @@ const UserAccountDashboard = () => {
       lastMessage: {
         sender: "Mike Support",
         date: "2025-01-03T11:30:00Z",
-        content: "Hi Sarah, I've regenerated your download link and sent it to your email. Please check your inbox and let me know if you need any further assistance."
+        content: "Hi Lester, I've regenerated your download link and sent it to your email. Please check your inbox and let me know if you need any further assistance."
       }
     },
     {
@@ -232,8 +232,8 @@ const UserAccountDashboard = () => {
   return (
     <>
       <Helmet>
-        <title>Account Dashboard - WebCraft Marketplace</title>
-        <meta name="description" content="Manage your WebCraft account, view purchase history, downloads, and account settings." />
+        <title>Account Dashboard - Royals Web Solutions Marketplace</title>
+        <meta name="description" content="Manage your Royals Web Solutions account, view purchase history, downloads, and account settings." />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />

@@ -18,9 +18,9 @@ const LoginForm = () => {
 
   // Mock credentials for authentication
   const mockCredentials = {
-    admin: { email: "admin@webcraft.com", password: "admin123" },
-    developer: { email: "dev@webcraft.com", password: "dev123" },
-    customer: { email: "customer@webcraft.com", password: "customer123" }
+    admin: { email: "admin@royalswebsolutions.com", password: "admin123" },
+    developer: { email: "dev@royalswebsolutions.com", password: "dev123" },
+    customer: { email: "customer@royalswebsolutions.com", password: "customer123" }
   };
 
   const validateForm = () => {
@@ -83,7 +83,7 @@ const LoginForm = () => {
         navigate('/user-account-dashboard');
       } else {
         setErrors({
-          general: "Invalid email or password. Please try: admin@webcraft.com / admin123"
+          general: "Invalid email or password. Please try: admin@royalswebsolutions.com / admin123"
         });
       }
       
@@ -110,7 +110,7 @@ const LoginForm = () => {
             <Icon name="User" size={32} color="white" />
           </div>
           <h1 className="text-2xl font-semibold text-foreground mb-2">Welcome Back</h1>
-          <p className="text-muted-foreground">Sign in to your WebCraft account</p>
+          <p className="text-muted-foreground">Sign in to your Royals Web Solutions account</p>
         </div>
 
         {/* General Error */}

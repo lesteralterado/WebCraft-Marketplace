@@ -76,7 +76,7 @@ const TemplateDetails = () => {
     demoUrl: "https://demo.example.com",
     tags: ["React", "Dashboard", "Business", "Analytics", "Modern"],
     author: {
-      name: "WebCraft Team",
+      name: "Royals Web Solutions Team",
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
       rating: 4.9,
       sales: 1247
@@ -118,7 +118,7 @@ const TemplateDetails = () => {
   return (
     <>
       <Helmet>
-        <title>{template?.name} - WebCraft Marketplace</title>
+        <title>{template?.name} - Royals Web Solutions Marketplace</title>
         <meta name="description" content={template?.description?.split('\n')?.[0]} />
         <meta property="og:title" content={template?.name} />
         <meta property="og:description" content={template?.description?.split('\n')?.[0]} />

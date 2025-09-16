@@ -39,7 +39,7 @@ const LoginBenefits = () => {
     <div className="bg-muted/50 rounded-lg p-8">
       <div className="text-center mb-8">
         <h2 className="text-xl font-semibold text-foreground mb-2">
-          Why Sign In to WebCraft?
+          Why Sign In to Royals Web Solutions?
         </h2>
         <p className="text-muted-foreground">
           Unlock exclusive features and enhance your development experience

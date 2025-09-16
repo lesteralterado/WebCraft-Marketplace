@@ -39,7 +39,7 @@ const Register = () => {
 
   // Mock credentials for testing
   const mockCredentials = {
-    existingEmails: ['john.doe@example.com', 'jane.smith@example.com', 'admin@webcraft.com']
+    existingEmails: ['john.doe@example.com', 'jane.smith@example.com', 'admin@royalswebsolutions.com']
   };
 
   const handleInputChange = (e) => {
@@ -229,7 +229,7 @@ const Register = () => {
                 Create Your Account
               </h1>
               <p className="text-muted-foreground">
-                Join WebCraft Marketplace to access premium templates and digital products
+                Join Royals Web Solutions Marketplace to access premium templates and digital products
               </p>
             </div>
 

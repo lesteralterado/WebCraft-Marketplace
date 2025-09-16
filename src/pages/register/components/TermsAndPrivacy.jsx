@@ -43,10 +43,10 @@ const TermsAndPrivacy = ({
           
           <div className="prose prose-sm max-w-none text-muted-foreground space-y-4">
             <h3 className="text-foreground font-medium">1. Acceptance of Terms</h3>
-            <p>By creating an account on WebCraft Marketplace, you agree to be bound by these Terms of Service and all applicable laws and regulations.</p>
+            <p>By creating an account on Royals Web Solutions Marketplace, you agree to be bound by these Terms of Service and all applicable laws and regulations.</p>
             
             <h3 className="text-foreground font-medium">2. Use License</h3>
-            <p>Permission is granted to temporarily download one copy of the materials on WebCraft Marketplace for personal, non-commercial transitory viewing only.</p>
+            <p>Permission is granted to temporarily download one copy of the materials on Royals Web Solutions Marketplace for personal, non-commercial transitory viewing only.</p>
             
             <h3 className="text-foreground font-medium">3. Account Responsibilities</h3>
             <p>You are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer.</p>
